@@ -93,7 +93,7 @@
 .table-container {
   max-width: 800px;
   margin: 30px auto;
-  padding: 20px;
+  padding: 0;
   background-color: #f1f5f9;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
