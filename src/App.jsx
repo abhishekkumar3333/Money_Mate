@@ -12,7 +12,7 @@ function App() {
     return saved ? JSON.parse(saved) : [];
   });
 
-  const [showForm, setShowForm] = useState(true);
+  const [showForm, setShowForm] = useState(false);
   const [formType, setFormType] = useState('credit');
 
   // ✅ Save to localStorage when transactions change
