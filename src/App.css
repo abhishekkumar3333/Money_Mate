@@ -1,0 +1,187 @@
+.header-container {
+  background-color: #1e293b; /* dark blue-gray */
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 4px solid #0ea5e9; /* light blue accent */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.header-subtitle {
+  margin: 10px 0 0;
+  font-size: 1.1rem;
+  color: #cbd5e1; /* light gray text */
+}
+.balance-container {
+  background-color: #f1f5f9; /* light gray background */
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.balance-title {
+  font-size: 1.8rem;
+  color: #1e293b; /* dark blue */
+  margin: 0;
+}
+
+.balance-amount {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0f766e; /* teal shade */
+  margin-top: 10px;
+}
+.form-container {
+  background-color: #f8fafc;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.submit-btn {
+  background-color: #22c55e;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #ef4444;
+  color: white;
+}
+.table-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.no-transaction-msg {
+  text-align: center;
+  color: #64748b;
+  font-style: italic;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.transaction-table th {
+  background-color: #e2e8f0;
+  color: #1e293b;
+}
+
+.type-cell {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.credit {
+  color: green;
+}
+
+.debit {
+  color: red;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.buttons button:first-child {
+  background-color: #22c55e; /* green for credit */
+}
+
+.buttons button:first-child:hover {
+  background-color: #16a34a;
+}
+
+.buttons button:last-child {
+  background-color: #ef4444; /* red for debit */
+}
+
+.buttons button:last-child:hover {
+  background-color: #dc2626;
+}
+
+
+
+
+
+
+
+
+
+
+
